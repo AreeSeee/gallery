@@ -1,0 +1,18 @@
+h1{
+    border-bottom: 2px dotted pink;
+    width: 400px;
+    text-align: center;
+    color:brown;
+    font-family: cursive;
+    font-size: 3em;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+}
