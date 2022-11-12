@@ -1,10 +1,14 @@
+body{
+    background-color: antiquewhite;
+}
 h1{
-    border-bottom: 2px dotted pink;
+    border-bottom: 2px solid pink;
     width: 400px;
     text-align: center;
     color:brown;
     font-family: cursive;
     font-size: 3em;
+    box-shadow: 4px 4px 4px #8888;
 }
 .container{
     display: flex;
@@ -15,4 +19,9 @@ img{
     width: 450px;
     height: 300px;
     margin: 10px;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+    
 }
